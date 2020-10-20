@@ -387,3 +387,8 @@ properties:
   zbx_sender_port: {type: integer}
   zbx_host: {type: string}
   zbx_item: {type: string}
+
+  ### Nagios NCPA
+  nrdp_parent: {type: string}
+  nrdp_token: {type: string}
+  nrdp_client_hostname: {type: string}
